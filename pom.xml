@@ -119,11 +119,11 @@
 <distributionManagement>
     <repository>
         <id>nexus-repo-release</id>  <!-- Matches ID in your settings.xml -->
-        <url>http://default-repository-url</url>  <!-- Placeholder, but not needed if in settings.xml -->
+        <url>http://nexus:8081/repository/maven-releases/</url>  <!-- Placeholder, but not needed if in settings.xml -->
     </repository>
     <snapshotRepository>
         <id>nexus-repo-snapshot</id>  <!-- Matches ID in your settings.xml -->
-        <url>http://default-snapshot-url</url>  <!-- Placeholder, but not needed if in settings.xml -->
+        <url>http://nexus:8081/repository/maven-snapshots/</url>  <!-- Placeholder, but not needed if in settings.xml -->
     </snapshotRepository>
 </distributionManagement>
 	
